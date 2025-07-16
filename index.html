@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offer letter</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: fit-content;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .container{
+        position: relative;
+        height: 792px;
+        width: 612px;
+        /* background-color: aliceblue; */
+      }
+      .layout-background{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+      }
+      .layout-background img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .layout-body{
+        position: absolute;
+        align-self: flex-end;
+        height: 80%;
+        width: 82%;
+        bottom: 6%;
+        /* background-color: beige; */
+        font-size: 14px;
+      }
+      .ref-date{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.2rem;
+      }
+      .dynamic{
+        background-color: goldenrod;
+      }
+      .applicant-details, .designation, .firstpara{
+        margin-bottom: 1.2rem;
+      }
+      .listofconditions ol{
+        margin-left: 10px;
+      }
+      .listofconditions ol li{
+        margin-bottom: 8px;
+      }
+      .nested{
+        margin-top: 8px;
+      }
+      .signature{
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="layout-background">
+            <img src="./letter-head.jpg" alt="">
+            <div class="layout-body">
+                <div class="ref-date">
+                    <p class="dynamic">Ref: <span>CE/40/2022/03/543</span></p>
+                    <p class="dynamic">Date: <span>21.04.2022</span></p>
+                </div>
+                <div class="applicant-details">
+                    <p class="dynamic">Mrs. Unnimaya C</p>
+                    <p class="dynamic">United Arab Emirates</p>
+                    <p class="dynamic">Mob: +971 543633257</p>
+                    <p class="dynamic">Email: mayaofficial021@gmail.com</p>
+                </div>
+                <div class="designation">
+                    <p class="dynamic">Re: <span>Offer of appointment for the Post of Associate- Risk Management</span></p>
+                </div>
+                <div class="firstpara">
+                    <p class="dynamic">Dear Sir,</p>
+                    <p>
+                        With reference to your CV and subsequent interview held on <span class="dynamic">07.04.2022</span>, we have the pleasure to inform that you have been selected for appointment on purely temporary basis for the post of ‘Associate-Risk Management’ in our Bank on the following Terms and Conditions:-
+                    </p>
+                </div>
+                <div class="listofconditions">
+                    <ol type="1">
+                        <li>You will remain on Probation for a period of 1 (One) year with effect from the date of joining and your services may be confirmed on satisfactory completion of your Probationary Period by the Bank at its discretion. </li>
+                        <li>During Probationary Period your Service may be terminated at any time without giving any Notice or assigning any reason what so ever.</li>
+                        <li>Even after Probationary period your services may be terminated without assigning any reason by serving one month Notice or Notice Pay in lieu thereof as per UAE Labor Law.</li>
+                        <li>The Post will carry an initial Salary of <span class="dynamic">AED. 2,500/-</span> per month in the Scale of AED.<span class="dynamic">2500-185x5-3425-3000-185x10-4850/-</span> plus other admissible allowance.</li>
+                        <li>Bank’s existing admissible facility covered only the individual of Mrs. Unnimaya C, not in any cases widen to family members.</li>
+                        <li>The appointment will not confer any title or claim or lien for regular or permanent absorption against the Post or any other Post or in the matter of Seniority.</li>
+                        <li>The Services will be governed by Bank’s Service Rules as well as UAE Labor Law.</li>
+                        <li>The Services are transferable to any of our Branches/ office in the UAE. Duty will be shifting nature invariably day or night or fixed what so ever or deem fit by the management.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="layout-background">
+            <img src="./letter-head.jpg" alt="">
+            <div class="layout-body">
+                <div class="ref-date">
+                    <p class="dynamic">Ref: <span>CE/40/2022/03/543</span></p>
+                    <p class="dynamic">Date: <span>21.04.2022</span></p>
+                </div>
+                <div class="listofconditions">
+                    <ol type="1" start="9">
+                        <li>You will be obliged to perform any instruction / order of Bank Management at any circumstances without question. Any negligence to obey the order confess your inability causes termination without assigning any reason to serving one month Notice or Notice Pay in lieu thereof as per UAE Labor Law.</li>
+                        <li>Personal guarantee for an amount of <span class="dynamic">AED.20,000/- (Dirham Twenty Thousand)</span> only from a gentleman, preferably our Bank’s Customer of substantial means and acceptable to the Bank in the prescribed Form to be furnished.</li>
+                        <li>A Medical Certificate of Fitness from respective Emirates Health Authority/ Registered Medical Practitioner should be furnished.</li>
+                        <li>A Bond of Secrecy as prescribed under the rules of the Bank to be furnished.</li>
+                        <li>The following papers/documents are to be submitted/executed:-
+                            <ol class="nested" type="i">
+                                <li>Reference from two respectable persons not related to you with contact number.</li>
+                                <li>Two sets of Staff Record Form (will be supplied in due course) to be executed.</li>
+                                <li>Police Verification report.</li>
+                                <li>Detailed address, emergency contact details, at least 2 contact number in India and 2 from UAE not related to section 14(i).</li>
+                            </ol>
+                        </li>
+                        <li>You are responsible to update your contact details, emergency contact details if any changes in such cases.</li>
+                        <li>Bank will not give any confirmation to get UAE work permit which is solely depends on the competent authority of UAE. To process for obtaining Work Permit, in your favor, the following papers/documents are required to be submitted :
+                            <ol class="nested" type="a">
+                                <li>Color photocopy of passports (2sets)</li>
+                                <li>Ten copies of Passport size recent photographs duly attested by competent authority.</li>
+                                <li>Original educational certificate duly attested by the concerned Educational Board/University, related ministry, UAE Embassy. The original  certificate will be returned back in due course</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="layout-background">
+            <img src="./letter-head.jpg" alt="">
+            <div class="layout-body">
+                <div class="ref-date">
+                    <p class="dynamic">Ref: <span>CE/40/2022/03/543</span></p>
+                    <p class="dynamic">Date: <span>21.04.2022</span></p>
+                </div>
+                <div class="listofconditions">
+                    <ol type="1" start="16">
+                        <li>In any case/reason, if work permit not issued by the competent authority of the UAE, this appointment letter seems to be void on the date of rejection. Your joining will be accepted upon obtaining Work Permit & Employment visa in your favor.</li>
+                    </ol>    
+                </div>
+                <div class="lastpara">
+                    <p>
+                        If the above Terms & Conditions under reference are acceptable to you, please convey your acceptance after returning the duplicate of this letter duly signed and report to the Office of undersigned along with above document/papers on or before <span class="dynamic">25.05.2022.</span>
+                    </p>
+                    <p>No TA/DA will be allowed for joining duty on appointment.</p>
+                    <div class="signature">
+                        <p class="dynamic">Yours faithfully,</p>
+                        <p class="dynamic">Mohammad Abdullah Al Amin</p>
+                        <p class="dynamic">Chief Executive-Incharge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script></script>
+  </body>
+</html>
